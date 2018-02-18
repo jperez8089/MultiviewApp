@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BlueViewController.swift
 //  viewSwitcherJavierP
 //
 //  Created by Javier Perez Primary on 2/18/18.
@@ -8,18 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BlueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+    
 
 }
-

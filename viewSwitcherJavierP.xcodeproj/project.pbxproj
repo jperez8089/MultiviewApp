@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BA3DD9FC2039E6B600695842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DD9FB2039E6B600695842 /* AppDelegate.swift */; };
-		BA3DD9FE2039E6B600695842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DD9FD2039E6B600695842 /* ViewController.swift */; };
 		BA3DDA012039E6B600695842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3DD9FF2039E6B600695842 /* Main.storyboard */; };
 		BA3DDA032039E6B600695842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3DDA022039E6B600695842 /* Assets.xcassets */; };
 		BA3DDA062039E6B600695842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3DDA042039E6B600695842 /* LaunchScreen.storyboard */; };
+		BA3DDA102039E9EA00695842 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DDA0F2039E9EA00695842 /* SwitchingViewController.swift */; };
+		BA3DDA122039EBA700695842 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DDA112039EBA700695842 /* BlueViewController.swift */; };
+		BA3DDA142039EC3000695842 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3DDA132039EC3000695842 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA3DD9F82039E6B600695842 /* viewSwitcherJavierP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewSwitcherJavierP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3DD9FB2039E6B600695842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA3DD9FD2039E6B600695842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA3DDA002039E6B600695842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA3DDA022039E6B600695842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA3DDA052039E6B600695842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA3DDA072039E6B600695842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3DDA0F2039E9EA00695842 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		BA3DDA112039EBA700695842 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		BA3DDA132039EC3000695842 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		BA3DD9FA2039E6B600695842 /* viewSwitcherJavierP */ = {
 			isa = PBXGroup;
 			children = (
+				BA3DDA132039EC3000695842 /* YellowViewController.swift */,
+				BA3DDA112039EBA700695842 /* BlueViewController.swift */,
+				BA3DDA0F2039E9EA00695842 /* SwitchingViewController.swift */,
 				BA3DD9FB2039E6B600695842 /* AppDelegate.swift */,
-				BA3DD9FD2039E6B600695842 /* ViewController.swift */,
 				BA3DD9FF2039E6B600695842 /* Main.storyboard */,
 				BA3DDA022039E6B600695842 /* Assets.xcassets */,
 				BA3DDA042039E6B600695842 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA3DD9FE2039E6B600695842 /* ViewController.swift in Sources */,
+				BA3DDA142039EC3000695842 /* YellowViewController.swift in Sources */,
 				BA3DD9FC2039E6B600695842 /* AppDelegate.swift in Sources */,
+				BA3DDA122039EBA700695842 /* BlueViewController.swift in Sources */,
+				BA3DDA102039E9EA00695842 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
